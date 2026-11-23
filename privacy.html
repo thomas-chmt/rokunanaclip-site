@@ -4,7 +4,8 @@
 <body><main>
 <h1>Règles de confidentialité</h1>
 <p class="muted">Dernière mise à jour : 23 novembre 2026</p>
-<p>RokuNanaClip est un outil interne qui met en ligne des vidéos sur la chaîne YouTube <a href="https://www.youtube.com/@rokunanaclip">Roku Nana Clip</a>. Ces règles expliquent quelles données l'application utilise.</p>
+<p lang="en"><strong>English summary:</strong> Roku Nana Clip (RokuNanaClip) is an internal desktop tool used only by our team to publish our own approved short videos (GTA 6 gameplay edits combined with real political news clips) to our own YouTube channel, our Instagram professional account @roku_nana_clips (Meta Graph API) and our TikTok account (TikTok Login Kit and Content Posting API, scopes user.info.basic, video.upload, video.publish). For TikTok, the app reads basic profile info (open_id, avatar, display name) to show which account will receive posts, and the creator info (privacy options, maximum video duration) required before posting; it then sends the approved video with its caption, chosen privacy level, comment/duet/stitch settings and commercial-content disclosure, either as a draft to the TikTok inbox or as a direct post. Access tokens are stored only on the owner's computer, never on a server. No data is sold or shared with third parties, and there are no ads, cookies or analytics. Access can be revoked at any time from each platform's settings, and deletion requests sent to <a href="mailto:rokunanaclip@gmail.com">rokunanaclip@gmail.com</a> are handled within 7 days.</p>
+<p>RokuNanaClip est un outil interne qui met en ligne des vidéos sur la chaîne YouTube <a href="https://www.youtube.com/@rokunanaclip">Roku Nana Clip</a>, ainsi que sur le compte Instagram <a href="https://www.instagram.com/roku_nana_clips/">@roku_nana_clips</a> et sur le compte TikTok de l'équipe. Ces règles expliquent quelles données l'application utilise.</p>
 
 <h2>Utilisation des services d'API YouTube</h2>
 <p>RokuNanaClip utilise les <strong>services d'API YouTube</strong> (YouTube Data API v3). En utilisant RokuNanaClip, vous acceptez les <a href="https://www.youtube.com/t/terms">Conditions d'utilisation de YouTube</a>. Les données traitées par Google sont soumises aux <a href="https://www.google.com/policies/privacy">Règles de confidentialité de Google</a> (https://www.google.com/policies/privacy).</p>
@@ -17,14 +18,36 @@
 <li><strong>Données des spectateurs :</strong> aucune. L'application ne lit ni commentaires, ni statistiques, ni informations sur d'autres utilisateurs.</li>
 </ul>
 
+<h2>Instagram (API Graph de Meta)</h2>
+<p>RokuNanaClip utilise l'API Graph de Meta (publication de contenu Instagram) pour publier les vidéos validées de l'équipe sous forme de Reels sur son propre compte Instagram professionnel <a href="https://www.instagram.com/roku_nana_clips/">@roku_nana_clips</a>, relié à une Page Facebook. Les données traitées par Meta sont soumises à la <a href="https://www.facebook.com/privacy/policy">Politique de confidentialité de Meta</a>.</p>
+<ul>
+<li><strong>Consultées :</strong> l'identifiant et le nom d'utilisateur du compte Instagram, pour vérifier qu'elle publie sur le bon compte, et le quota de publication restant.</li>
+<li><strong>Envoyées à Instagram :</strong> les vidéos validées de l'équipe et leurs légendes.</li>
+<li><strong>Stockées :</strong> uniquement le jeton d'accès Meta, dans un fichier sur l'ordinateur du propriétaire du compte. Aucune donnée n'est stockée sur un serveur.</li>
+</ul>
+
+<h2>TikTok (Login Kit et Content Posting API)</h2>
+<p>RokuNanaClip utilise le Login Kit et la Content Posting API de TikTok, avec les autorisations <code>user.info.basic</code>, <code>video.upload</code> et <code>video.publish</code>. Le membre de l'équipe se connecte avec son compte TikTok. Voir les <a href="https://www.tiktok.com/legal/terms-of-service">Conditions d'utilisation de TikTok</a> et la <a href="https://www.tiktok.com/legal/privacy-policy">Politique de confidentialité de TikTok</a>.</p>
+<ul>
+<li><strong>Consultées :</strong> les informations de profil de base (open_id, avatar, nom affiché), pour montrer quel compte recevra les publications, et les informations de créateur exigées avant de publier (options de confidentialité disponibles, durée maximale des vidéos).</li>
+<li><strong>Envoyées à TikTok :</strong> les vidéos validées de l'équipe, avec leur légende, le niveau de confidentialité choisi, les réglages de commentaires, Duo et Collage, et la déclaration de contenu commercial. Elles sont envoyées soit en brouillon dans la boîte de réception TikTok, soit en publication directe.</li>
+<li><strong>Stockées :</strong> uniquement le jeton d'accès TikTok, dans un fichier sur l'ordinateur du propriétaire. Aucune donnée n'est stockée sur un serveur.</li>
+</ul>
+
 <h2>Utilisation et partage</h2>
 <p>Les données ne servent qu'à mettre en ligne les vidéos de l'équipe sur sa propre chaîne. Elles ne sont ni vendues, ni partagées avec des tiers, ni utilisées pour de la publicité. L'application n'utilise ni cookies, ni outils de mesure d'audience.</p>
+<p>Il en va de même pour Instagram et TikTok : les données ne servent qu'à publier les vidéos de l'équipe sur ses propres comptes, sans partage avec des tiers, sans publicité et sans mesure d'audience.</p>
 
 <h2>Révoquer l'accès</h2>
 <p>Vous pouvez retirer à tout moment l'accès de RokuNanaClip à votre compte sur la page des paramètres de sécurité de Google : <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>.</p>
+<ul>
+<li><strong>Instagram :</strong> dans les paramètres Facebook, rubrique <em>Intégrations professionnelles</em>, supprimez RokuNanaClip.</li>
+<li><strong>TikTok :</strong> dans l'application TikTok, <em>Paramètres &gt; Sécurité &gt; Gérer les autorisations des applications</em>, retirez RokuNanaClip.</li>
+</ul>
 
 <h2>Suppression des données</h2>
 <p>Le seul élément stocké est le jeton d'autorisation, sur l'ordinateur du propriétaire. Il est supprimé si vous révoquez l'accès (voir ci-dessus) ou si vous supprimez le fichier du jeton. Pour toute demande de suppression, écrivez à <a href="mailto:rokunanaclip@gmail.com">rokunanaclip@gmail.com</a> : nous supprimons les données concernées sous 7 jours. Les vidéos publiées sur YouTube se suppriment depuis YouTube Studio.</p>
+<p>Il en va de même pour les jetons Instagram et TikTok, supprimés sous 7 jours sur demande. Les vidéos publiées sur Instagram ou TikTok se suppriment depuis l'application concernée.</p>
 
 <h2>Contact</h2>
 <p><a href="mailto:rokunanaclip@gmail.com">rokunanaclip@gmail.com</a></p>
