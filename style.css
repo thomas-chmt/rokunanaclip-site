@@ -4,3 +4,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-appl
 main{max-width:720px;margin:0 auto;padding:40px 16px}
 h1{font-size:1.8rem;margin:0 0 .5rem}h2{font-size:1.15rem;margin-top:2rem}
 a{color:var(--accent)}p.muted,footer{color:var(--muted)}footer{margin-top:3rem;font-size:.9rem}
+.yt a{display:inline-flex;align-items:center;gap:.5rem;font-weight:600;color:var(--fg);text-decoration:none}
+.ytlogo{width:34px;height:24px}
+nav.links{margin-top:1.5rem;font-weight:600}
+ul{padding-left:1.2rem}li{margin:.35rem 0}
